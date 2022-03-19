@@ -1,0 +1,2 @@
+# YukarinetteToTwitchChat
+ゆかりねっとの音声認識結果をTwitchチャットに投稿するプラグイン
