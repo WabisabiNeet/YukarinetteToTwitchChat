@@ -21,4 +21,4 @@
 # その他
 
 - もし動かない場合は[twitter](https://twitter.com/wabisabi_neet)までやさしくご一報を。Windows のバージョン、ゆかりねっとのバージョン、音声認識タブのメッセージに出ているメッセージを添えてくれると助かります。解決できるとは限らないのでその辺は許してね。
-- [Twitch](https://www.twitch.tv/wabisabi_neet)でプラグインを使用している様子を見れます。配信頻度はランダムです。
+- [Twitch](https://www.twitch.tv/wabisabi_neet)の自分のチャンネルでプラグインを使用している様子を見れます。配信時間帯は 20 時～です。頻度はまちまちです。
