@@ -6,6 +6,9 @@
 
 - [リリース](https://github.com/WabisabiNeet/YukarinetteToTwitchChat/releases)の最新バージョンから YukarinetteToTwitchChat.dll をダウンロードします
 - YukarinetteToTwitchChat.dll をゆかりねっとのプラグインフォルダへコピーします。
+- YukarinetteToTwitchChat.dll を右クリックしてプロパティを開きます。下の画面のように「セキュリティ」が表示されている場合は「許可する」にチェックを入れて OK ボタンを押してください。
+  - 「セキュリティ」が表示されていない場合は何もしなくてよいです。
+    ![プロパティ画面](doc/dll_property.png)
 - ゆかりねっとを起動し、ゆかりねっとのプラグインタブ → ゆかりねっと Twitch チャットプラグインの設定を開き、設定画面の「Twitch ログイン」ボタンを押してください。
   ![設定画面](doc/yukarinette_setting_tab.png)
 - Twitch ボタンを押すとブラウザが開きます。自分が配信で利用するアカウントでログインし、許可ボタンを押してください。
