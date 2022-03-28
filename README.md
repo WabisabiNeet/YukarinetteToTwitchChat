@@ -1,2 +1,16 @@
 # YukarinetteToTwitchChat
-ゆかりねっとの音声認識結果をTwitchチャットに投稿するプラグイン
+
+ゆかりねっとの音声認識結果を**自分の** Twitch チャンネルのチャットに投稿するプラグインです。
+
+# 使い方
+
+- [リリース](https://github.com/WabisabiNeet/YukarinetteToTwitchChat/releases)の最新バージョンから YukarinetteToTwitchChat.dll をダウンロードします
+- YukarinetteToTwitchChat.dll をゆかりねっとのプラグインフォルダへコピーします。
+- ゆかりねっとを起動し、ゆかりねっとのプラグインタブ → ゆかりねっと Twitch チャットプラグインの設定を開き、設定画面の「Twitch ログイン」ボタンを押してください。
+  ![設定画面](doc/yukarinette_setting_tab.png)
+- Twitch ボタンを押すとブラウザが開きます。自分が配信で利用するアカウントでログインし、許可ボタンを押してください。
+  ![Twitch許可画面](doc/Twitch_oauth.png)
+- 連携が成功すると、設定画面の Twitch ユーザーの横にアカウント ID が表示されます。この時点でゆかりねっとの設定画面とブラウザは閉じても大丈夫です。
+- 音声認識タブでゆかりねっと Twitch チャットプラグインを有効にし、音声認識を開始します。
+- あとはいつも通り音声認識するだけで Twitch の自分のチャンネルに音声認識結果が投稿されるはずです。
+- 以上です
