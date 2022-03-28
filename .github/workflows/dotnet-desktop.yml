@@ -83,5 +83,5 @@ jobs:
         prerelease: false
         draft: true
         files: |
-          README.md
+          YukarinetteToTwitchChat/YukarinetteToTwitchChat/bin/Release/YukarinetteToTwitchChat.dll
 
