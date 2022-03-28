@@ -27,6 +27,7 @@ namespace YukarinetteToTwitchChat
             HttpWebResponse res = null;
             try
             {
+                YukarinetteConsoleMessage.Instance.WriteMessage($"[YukarinetteToTwitchChatPlugin] Validate request...");
                 res = req.GetResponse() as HttpWebResponse;
                 if (res?.StatusCode != HttpStatusCode.OK)
                 {
@@ -129,7 +130,7 @@ namespace YukarinetteToTwitchChat
         public void SendChat(string message)
         {
             var config = ConfigData.Instance;
-            client.SendRawMessage($"PRIVMSG #{config.LoginUser} {message}");
+            client.SendRawMessage($"PRIVMSG #{config.LoginUser} :{message}");
         }
 
         private static void IrcClient_Registered(object sender, EventArgs e)

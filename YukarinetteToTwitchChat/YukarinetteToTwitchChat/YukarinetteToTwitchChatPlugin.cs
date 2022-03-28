@@ -44,12 +44,16 @@ namespace YukarinetteToTwitchChat
             var config = ConfigData.Instance;
             if (string.IsNullOrEmpty(config.Token) || string.IsNullOrEmpty(config.LoginUser))
             {
-                throw new YukarinetteException($"{PluginName}がTwitchと紐づけられていません。プラグインの設定からTwitchと連携してください。");
+                var message = $"{PluginName}がTwitchと紐づけられていません。プラグインの設定からTwitchと連携してください。";
+                YukarinetteConsoleMessage.Instance.WriteMessage($"{message}");
+                throw new YukarinetteException(message);
             }
 
             if (!TwitchClient.Validate(config.Token))
             {
-                throw new YukarinetteException($"{PluginName}とTwitchの紐づけが何かおかしいです。プラグインの設定からTwitchと再度連携してください。");
+                var message = $"{PluginName}とTwitchの紐づけが何かおかしいです。プラグインの設定からTwitchと再度連携してください。";
+                YukarinetteConsoleMessage.Instance.WriteMessage($"{message}");
+                throw new YukarinetteException(message);
             }
 
             client.Connect($"{ConfigData.Instance.LoginUser}", $"oauth:{ConfigData.Instance.Token}");
