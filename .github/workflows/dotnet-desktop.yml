@@ -83,4 +83,5 @@ jobs:
         prerelease: false
         draft: true
         files: |
-          $Env:GITHUB_WORKSPACE\YukarinetteToTwitchChat\YukarinetteToTwitchChat\bin\Release\YukarinetteToTwitchChat.dll
+          README.md
+
